@@ -1,5 +1,5 @@
-# EE4301 Textbook Notes, Chapter 4
-## Chapter 4.1
+# EE4301 Textbook Notes, Chapter 6
+## Chapter 6.1
 
 Page ##
 ```Verilog
