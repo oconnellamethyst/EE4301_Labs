@@ -65,6 +65,7 @@ a multiline comment */
 Statements are ended with a semicolon (;), and, or, and always are special words in verilog
 
 Page 67
+![](FIGURE 2-5.png)
 ```Verilog
 // when A changes, these concurrent
 // statements all execute at the
