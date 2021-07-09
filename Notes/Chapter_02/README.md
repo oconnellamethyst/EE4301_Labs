@@ -269,7 +269,7 @@ endmodule
 ```
 
 
-##Chapter 2.5 Verilog Assignments
+## Chapter 2.5 - Verilog Assignments
 
 Page 73
 
