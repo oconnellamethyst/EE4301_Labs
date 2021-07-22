@@ -29,7 +29,7 @@ A third 2-to-1 multiplexer must now be used to create the output of the 4-to-1 m
 M = S1'M1 + S1 M2
 
 
-Page 343
+Page #343
 
 Many modern FPGAs use a 4-input look-up table (LUT) as a basic building block. 
 Many designers refer to this building block as LUT4.
