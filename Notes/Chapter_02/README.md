@@ -285,5 +285,8 @@ Procedural assignments are used to model registers and finite state machines usi
 the always keyword.
 
 
+## Chapter 2.6 - Verilog Assignments
+
+Page 73
 
 
