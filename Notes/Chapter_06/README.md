@@ -88,8 +88,7 @@ Four programmable logic blocks similar to Figure 6-1(a) will be required to crea
 
 
 
-## Chapter 6.2 - Implementing Functions Using Shannon’s
-Decomposition
+## Chapter 6.2 - Implementing Functions Using Shannon’s Decomposition
 
 
 Page 347
