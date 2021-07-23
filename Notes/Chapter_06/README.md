@@ -96,7 +96,7 @@ Page 347
 
 Shannon’s expansion theorem can be used to decompose functions of large numbers of variables into functions of fewer variables.
 
-Z(a,b,c,d,e,f) = a' * Z(0,b,c,d,e,f) + a * Z(l,b,c,d,e,f) = a'Z0 + aZ1 (6-3)
+Z(a,b,c,d,e,f) = a' * Z(0,b,c,d,e,f) + a * Z(l,b,c,d,e,f) = a' * Z0 + a * Z1 (6-3)
 
 Verify that Equation 6-3 is correct by setting a to 0 on both sides and then setting a to 1 on both sides. Since the equation is true for both a = 0 anda = 1, it is always true.
 
@@ -109,7 +109,7 @@ Page 348
 
 If only 4-input LUTs are available, the 5-variable functions should be further decomposed into 4-variable functions. This can be done by applying Shannon’s expansion theorem twice, first expanding about a and then expanding about b. Or, it can be done in one step by decomposing into four component functions as follows:
 
-Z(a,b,c,d,e,f) = a'b'*Z(0,0,c,d,e,f) + a'b*Z(0,1,c,d,e,f) + ab'*Z(1,0,c,d,e,f) + ab*Z(1,1,c,d,e,f)
-               = a'b'*Y0 + a'b*Y1 + ab'*Y2 + ab*Y3
+Z(a,b,c,d,e,f) = a'b' Z(0,0,c,d,e,f) + a'b Z(0,1,c,d,e,f) + ab' Z(1,0,c,d,e,f) + ab Z(1,1,c,d,e,f)
+               = a'b' Y0  +  a'b Y1  +  ab' Y2  +  ab Y3
 
 
