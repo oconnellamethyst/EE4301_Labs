@@ -1,12 +1,6 @@
 # EE4301 Textbook Notes, Chapter 6
 ## Chapter 6.1 - Implementing Functions in Fpgas
 
-Page ##
-```Verilog
-int* = ptr;
-ptr = &i; // Pointer now holds the location of i as an integer storage location
-```
-
 
 Page 342
 
@@ -95,7 +89,7 @@ Page 347
 
 Shannon’s expansion theorem can be used to decompose functions of large numbers of variables into functions of fewer variables.
 
-Z(a,b,c,d,e,f) = a' * Z(0,b,c,d,e,f) + a * Z(l,b,c,d,e,f) = a' * Z0 + a * Z1 (6-3)
+Z(a,b,c,d,e,f) = a' * Z(0,b,c,d,e,f) + a * Z(1,b,c,d,e,f) = a' * Z0 + a * Z1 (6-3)
 
 Verify that Equation 6-3 is correct by setting a to 0 on both sides and then setting a to 1 on both sides. Since the equation is true for both a = 0 anda = 1, it is always true.
 
